@@ -1,7 +1,6 @@
 header {
     height: 400px;
     width: 100%;
-    padding: 36px 0 0 0;
     background-color: #88b8eb;
     background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
 }
@@ -10,6 +9,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 36px 0 0 0;
 }
 
 .user-name {
