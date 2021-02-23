@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 230);
+}
+
+h2 {
+    text-align: center;
+}
+
+.new-tweet {
+    width: 100%;
+    margin: 0 20px 20px 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    border: none;
+    border-bottom: 4px solid #545149;
+    background-color: rgb(228, 228, 230); 
+    font-size: 1.1rem;
+}
+
+button {
+    font-family: Bungee, sans-serif;
+    font-size: 18px;
+    background-color: #4056A1;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+}
+
+label {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+output {
+    font-family: Bungee, sans-serif;
+}
+
+.tweeting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

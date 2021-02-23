@@ -15,7 +15,7 @@ nav {
     font-family: Bungee, sans-serif;
 }
 
-.new-tweet {
+.write-tweet {
     display: flex;
     text-align: center;
     font-size: 1.35rem;
