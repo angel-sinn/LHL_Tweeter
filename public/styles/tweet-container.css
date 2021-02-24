@@ -1,11 +1,14 @@
+/* Regular State */
+
 .tweet-container {
     width: 100%;
-    margin: 20px;
+    margin: 10px;
     border: 4px solid #545149;
     padding: 15px;
 }
 
 .article-tweet {
+    opacity: 0.75;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,13 +33,15 @@
 }
 
 .tweet-user-page {
+    visibility: hidden;
     font-size: 1.3rem;
-    color: rgb(151, 158, 167)
+    color: rgb(181, 184, 189)
 }
 
 .tweet-body {
     padding: 30px;
     font-size: 1.3rem;
+    opacity: 0.75;
 }
 
 footer {
@@ -48,7 +53,38 @@ footer {
     padding: 8px;
 }
 
+.tweet-time {
+    opacity: 0.75;
+}
+
 .tweet-icon {
     color: #4056A1;
     margin-left: 5px;
+    opacity: 0.75;
+}
+
+/* Hover State */
+
+.tweet-container:hover {
+    box-shadow: 8px 8px rgb(206, 209, 215)
+}
+
+.tweet-container:hover .tweet-user-page {
+    visibility: visible;
+}
+
+.tweet-container:hover .tweet-icon {
+    opacity: 1;
+}
+
+.tweet-container:hover .article-tweet {
+    opacity: 1;
+}
+
+.tweet-container:hover .tweet-body {
+    opacity: 1;
+}
+
+.tweet-container:hover .tweet-time {
+    opacity: 1;
 }
