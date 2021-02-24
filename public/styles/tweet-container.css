@@ -1,8 +1,13 @@
 /* Regular State */
 
-.tweet-container {
+#tweet-container {
     width: 100%;
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+.tweet {
+    width: 100%;
+    margin: 20px 0;
     border: 4px solid #545149;
     padding: 15px;
 }
@@ -65,26 +70,26 @@ footer {
 
 /* Hover State */
 
-.tweet-container:hover {
+.tweet:hover {
     box-shadow: 8px 8px rgb(206, 209, 215)
 }
 
-.tweet-container:hover .tweet-user-page {
+.tweet:hover .tweet-user-page {
     visibility: visible;
 }
 
-.tweet-container:hover .tweet-icon {
+.tweet:hover .tweet-icon {
     opacity: 1;
 }
 
-.tweet-container:hover .article-tweet {
+.tweet:hover .article-tweet {
     opacity: 1;
 }
 
-.tweet-container:hover .tweet-body {
+.tweet:hover .tweet-body {
     opacity: 1;
 }
 
-.tweet-container:hover .tweet-time {
+.tweet:hover .tweet-time {
     opacity: 1;
 }
