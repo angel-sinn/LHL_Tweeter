@@ -15,10 +15,18 @@ $(document).ready(function () {
     const maxTextLength = 140;
     const textLength = $("#tweet-text").val().length;
 
-    if (textLength > 0 && textLength > maxTextLength) {
-      alert("Maximum character limit exceeded! Please post again!");
-    } else if (textLength === "" || textLength === null || textLength === 0) {
-      alert("Tweet must contain at least 1 character! Please post again!");
+    if (textLength > maxTextLength) {
+      $(".new-tweet p.exceeds-text").text(
+        "Maximum character limit exceeded! Please post again."
+      );
+      $(".new-tweet p.exceeds-text").slideDown();
+      
+    } else if (textLength <= 0) {
+      $(".new-tweet p.empty-text").text(
+        "Tweet must contain at least 1 character! Please post again."
+      );
+      $(".new-tweet p.empty-text").slideDown();
+
     } else {
       // Create AJAX POST request to send form data to server
 
@@ -28,8 +36,8 @@ $(document).ready(function () {
         data: $(this).serialize(),
         success: function (data) {
           loadTweets();
-          $("#tweet-text").val('');
-          $(".counter").text('140');
+          $("#tweet-text").val("");
+          $(".counter").text("140");
         },
       });
     }
@@ -52,19 +60,20 @@ $(document).ready(function () {
 
 // Escape function to prevent XSS - returns inner HTML of text node
 
-const escape =  function(str) {
-    let div = document.createElement('div');
-    div.appendChild(document.createTextNode(str));
-    return div.innerHTML;
-}
+const escape = function (str) {
+  let div = document.createElement("div");
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
 
 // Creating HTML of new tweets
 
 const createTweetElement = function (tweet) {
-
   let $tweet = $(`<article class="tweet">
     <header class="article-tweet">
-      <div><img class="tweet-avatar" src=${tweet.user.avatars} alt="tweet-avatar">
+      <div><img class="tweet-avatar" src=${
+        tweet.user.avatars
+      } alt="tweet-avatar">
       <span class="tweet-user">${tweet.user.name}</span></div>
       <span class="tweet-user-profile">${tweet.user.handle}</span>
     </header>
@@ -74,7 +83,6 @@ const createTweetElement = function (tweet) {
       <span><i class="tweet-icon fas fa-flag"></i> <i class=" tweet-icon fas fa-retweet"></i> <i class="tweet-icon fas fa-heart"></i></span>
     </footer>
   </article>`);
-
 
   return $tweet;
 };
