@@ -5,6 +5,14 @@
  */
 
 $(document).ready(function () {
+
+  // Compost handler
+
+  $(".write-tweet").on("click", function () {
+    $('section.new-tweet').slideToggle();
+    // $('section.new-tweet textarea').focus();
+  })
+
   // Submit handler
 
   $("form").on("submit", function (event) {
