@@ -27,9 +27,15 @@ body {
   display: flex;
   justify-content: center;
   background-color: #f5efeb;
-
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ @media screen and (min-width: 768px) {
+   .container {
+     float: right;
+     width: 60%;
+   }
+ }

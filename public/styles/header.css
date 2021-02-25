@@ -9,7 +9,6 @@ header.user {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 36px 0 0 0;
 }
 
 .user-name {
@@ -17,4 +16,16 @@ header.user {
     justify-content: center;
     align-items: center;
     color: #fff
+}
+
+@media screen and (min-width: 768px) {
+    header.user {
+      float: left;
+      width: 35%;
+      margin: 36px 0px 0px 36px;
+    }
+
+    .user-avatar {
+        padding: 36px 0px 0px 0px ;
+    }
 }
