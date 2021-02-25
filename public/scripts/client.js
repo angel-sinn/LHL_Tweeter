@@ -50,21 +50,31 @@ $(document).ready(function () {
   loadTweets();
 });
 
+// Escape function to prevent XSS - returns inner HTML of text node
+
+const escape =  function(str) {
+    let div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+}
+
 // Creating HTML of new tweets
 
 const createTweetElement = function (tweet) {
+
   let $tweet = $(`<article class="tweet">
     <header class="article-tweet">
       <div><img class="tweet-avatar" src=${tweet.user.avatars} alt="tweet-avatar">
       <span class="tweet-user">${tweet.user.name}</span></div>
       <span class="tweet-user-profile">${tweet.user.handle}</span>
     </header>
-    <div class="tweet-body">${tweet.content.text}</div>
+    <div class="tweet-body">${escape(tweet.content.text)}</div>
     <footer>
-      <span class="tweet-time">${tweet.created_at}</span>
+      <span class="tweet-time">${moment(tweet.created_at).fromNow()}</span>
       <span><i class="tweet-icon fas fa-flag"></i> <i class=" tweet-icon fas fa-retweet"></i> <i class="tweet-icon fas fa-heart"></i></span>
     </footer>
   </article>`);
+
 
   return $tweet;
 };
