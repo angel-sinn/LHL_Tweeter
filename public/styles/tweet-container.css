@@ -13,7 +13,7 @@
 }
 
 .article-tweet {
-    opacity: 0.75;
+    opacity: 0.65;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,7 +37,7 @@
     font-size: 1.3rem;
 }
 
-.tweet-user-page {
+.tweet-user-profile {
     visibility: hidden;
     font-size: 1.3rem;
     color: rgb(181, 184, 189)
@@ -46,7 +46,7 @@
 .tweet-body {
     padding: 30px;
     font-size: 1.3rem;
-    opacity: 0.75;
+    opacity: 0.65;
 }
 
 footer {
@@ -59,13 +59,13 @@ footer {
 }
 
 .tweet-time {
-    opacity: 0.75;
+    opacity: 0.65;
 }
 
 .tweet-icon {
     color: #4056A1;
     margin-left: 5px;
-    opacity: 0.75;
+    opacity: 0.65;
 }
 
 /* Hover State */
@@ -74,7 +74,7 @@ footer {
     box-shadow: 8px 8px rgb(206, 209, 215)
 }
 
-.tweet:hover .tweet-user-page {
+.tweet:hover .tweet-user-profile {
     visibility: visible;
 }
 

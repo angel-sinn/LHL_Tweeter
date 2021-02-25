@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
-    background-color: rgb(228, 228, 230);
+    background-color: #f5efeb;
     flex-wrap: wrap;
 }
 
@@ -20,7 +20,7 @@ textarea {
     margin: 5px 0 15px 0;
     border: none;
     border-bottom: 4px solid #545149;
-    background-color: rgb(228, 228, 230); 
+    background-color: #f5efeb; 
     font-size: 1.1rem;
 }
 
