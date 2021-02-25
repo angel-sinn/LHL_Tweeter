@@ -28,7 +28,8 @@ $(document).ready(function () {
         data: $(this).serialize(),
         success: function (data) {
           loadTweets();
-          
+          $("#tweet-text").val('');
+          $(".counter").text('140');
         },
       });
     }
