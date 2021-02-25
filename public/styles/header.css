@@ -18,6 +18,20 @@ header.user {
     color: #fff
 }
 
+.user-first-name {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.user-last-name {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+
 @media screen and (min-width: 768px) {
     header.user {
       float: left;

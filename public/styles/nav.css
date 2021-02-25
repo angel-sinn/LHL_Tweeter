@@ -19,7 +19,11 @@ nav {
 
 .write-tweet {
     text-align: center;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
+}
+
+strong {
+    font-weight: 700;
 }
 
 .write-tweet-icon {
