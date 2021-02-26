@@ -9,7 +9,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 **:computer:  Tweeter home page  :computer:**
 
-!["Screenshot of home page"]()
+!["Screenshot of home page"](https://github.com/angel-sinn/tweeter/blob/master/docs/Tweeter-home-page.png)
 
 
 ## Getting Started
