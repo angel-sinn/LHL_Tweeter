@@ -18,7 +18,6 @@ nav {
 }
 
 .write-tweet {
-    justify-content: flex-end;
     text-align: center;
     font-size: 1.2rem;
 }
@@ -57,9 +56,16 @@ strong {
     nav {
         background-color: #fca119;
         background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+        position: initial;
+    }
+
+    .write-tweet {
+        position: absolute;
+        right: 36px;
     }
 
     .logo-text {
+        position: fixed;
         background-color: transparent;
     }
 
