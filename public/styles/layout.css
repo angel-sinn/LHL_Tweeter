@@ -34,7 +34,7 @@ body {
  */
 
  @media screen and (min-width: 768px) {
-   .container {
+   .section {
      float: right;
      width: 60%;
    }
