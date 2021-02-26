@@ -29,6 +29,21 @@ body {
   background-color: #f5efeb;
 }
 
+.to-top-button {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  color: rgb(235, 59, 59);
+  opacity: 0.75;
+  font-size: 50px;
+  cursor: pointer;
+  display: none;
+}
+
+.to-top-button:hover {
+  opacity: 1;
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

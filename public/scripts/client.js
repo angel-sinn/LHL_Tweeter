@@ -6,11 +6,11 @@
 
 $(document).ready(function () {
 
-  // Compost handler
+  // Compose Tweet handler
 
   $(".write-tweet").on("click", function () {
     $('section.new-tweet').slideToggle();
-    // $('section.new-tweet textarea').focus();
+    $('section.new-tweet textarea').focus();
   })
 
   // Submit handler
