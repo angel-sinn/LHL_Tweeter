@@ -45,6 +45,7 @@
 
 .tweet-body {
     padding: 30px;
+    word-wrap: break-word;
     font-size: 1.3rem;
     opacity: 0.65;
 }
