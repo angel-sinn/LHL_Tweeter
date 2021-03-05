@@ -65,7 +65,7 @@ strong {
     }
 
     .logo-text {
-        position: fixed;
+        position: absolute;
         background-color: transparent;
     }
 
