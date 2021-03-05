@@ -27,7 +27,7 @@ strong {
 }
 
 .write-tweet-icon {
-    color: red;
+    color: #1da1f2;
     animation: animate 2s infinite;
     position: relative;
 }
@@ -54,8 +54,8 @@ strong {
 
 @media screen and (max-width: 767px) {
     nav {
-        background-color: #fca119;
-        background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+        background-color: #97b0f0;
+        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
         position: initial;
     }
 
