@@ -9,7 +9,32 @@ This repository is the starter code for the project: Students will fork and clon
 
 **:computer:  Tweeter home page  :computer:**
 
-!["Screenshot of home page"](https://github.com/angel-sinn/tweeter/blob/master/docs/Tweeter-home-page.png)
+!["Screenshot of home page"](https://github.com/angel-sinn/tweeter/blob/master/docs/homepage.png)
+
+
+**:computer:  Form Validation - Empty text  :computer:**
+
+!["Screenshot of form validation 1"](https://github.com/angel-sinn/tweeter/blob/master/docs/form_validation_1.png)
+
+
+**:computer:  Form Validation - Max char exceeded  :computer:**
+
+!["Screenshot of form validation 2"](https://github.com/angel-sinn/tweeter/blob/master/docs/form_validation_2.png)
+
+
+**:computer:  Hovering effects on tweets  :computer:**
+
+!["Screenshot of hovering effects"](https://github.com/angel-sinn/tweeter/blob/master/docs/hovering_tweet.png)
+
+
+**:computer:  Responsive webpage  :computer:**
+
+!["Screenshot of responsive webpage"](https://github.com/angel-sinn/tweeter/blob/master/docs/responsive_page.png)
+
+
+**:computer:  Back to top button  :computer:**
+
+!["Screenshot of back to top button"](https://github.com/angel-sinn/tweeter/blob/master/docs/back_to_top_button.png)
 
 
 ## Getting Started
