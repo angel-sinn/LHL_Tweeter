@@ -22,11 +22,6 @@ This repository is the starter code for the project: Students will fork and clon
 !["Screenshot of form validation 2"](https://github.com/angel-sinn/tweeter/blob/master/docs/form_validation_2.png)
 
 
-**:computer:  Hovering effects on tweets  :computer:**
-
-!["Screenshot of hovering effects"](https://github.com/angel-sinn/tweeter/blob/master/docs/hovering_tweet.png)
-
-
 **:computer:  Responsive webpage  :computer:**
 
 !["Screenshot of responsive webpage"](https://github.com/angel-sinn/tweeter/blob/master/docs/responsive_page.png)
