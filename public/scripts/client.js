@@ -25,13 +25,13 @@ $(document).ready(function () {
 
     if (textLength > maxTextLength) {
       $(".new-tweet p.exceeds-text").text(
-        "Maximum character limit exceeded! Please post again."
+        "⛔️ Maximum character limit exceeded! Please post again."
       );
       $(".new-tweet p.exceeds-text").slideDown();
       
     } else if (textLength <= 0) {
       $(".new-tweet p.empty-text").text(
-        "Tweet must contain at least 1 character! Please post again."
+        "⛔️ Tweet must contain at least 1 character! Please post again."
       );
       $(".new-tweet p.empty-text").slideDown();
 
