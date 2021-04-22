@@ -6,8 +6,8 @@ This repository contained starter code for the project. Main focus of this proje
 
 ## Project Stack
 
-**Front-End**: HTML, CSS, JavaScript, jQuery, AJAX
-**Back-End**: Express, Node
+**Front-End**: HTML, CSS, JavaScript, jQuery, AJAX  
+**Back-End**: Express, Node  
 **Database**: MongoDB
 
 ## Project Features
@@ -20,7 +20,7 @@ This repository contained starter code for the project. Main focus of this proje
 
 **Tweeter home page**
 
-!["Screenshot of home page"](https://github.com/angel-sinn/tweeter/blob/master/docs/homepage.png)
+!["Gif of home page"](https://github.com/angel-sinn/LHL_Tweeter/blob/master/docs/homepage.gif)
 
 **Form Validation - Empty text**
 
