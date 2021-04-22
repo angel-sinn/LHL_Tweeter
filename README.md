@@ -41,8 +41,11 @@ This repository contained starter code for the project. Main focus of this proje
 ## Getting Started
 
 1. Fork this repository, and clone your fork of the repository
+
 2. Install the dependencies with `npm install`
+
 3. Run the web server with `npm run local`
+
 4. Open your web browser on <http://localhost:8080/> and start tweeting!
 
 ## Dependencies
