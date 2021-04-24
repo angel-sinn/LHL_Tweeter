@@ -7,8 +7,7 @@ This repository contained starter code for the project. Main focus of this proje
 ## Project Stack
 
 **Front-End**: HTML, CSS, JavaScript, jQuery, AJAX  
-**Back-End**: Express, Node  
-**Database**: MongoDB
+**Back-End**: Express, Node
 
 ## Project Features
 
