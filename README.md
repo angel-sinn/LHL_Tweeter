@@ -4,6 +4,8 @@ Tweeter is a single page application (SPA) built with jQuery and AJAX to render 
 
 This repository contained starter code for the project. Main focus of this project is to practice HTML, CSS, JS, jQuery and AJAX front-end skills, as well as Express and Node back-end skills.
 
+View live application: <a href="https://tweeter-lhl-as.herokuapp.com/" target="_blank">Tweeter</a>
+
 ## Project Stack
 
 **Front-End**: HTML, CSS, JavaScript, jQuery, AJAX  
